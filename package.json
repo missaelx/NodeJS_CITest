@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_citest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missaelx/NodeJS_CITest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missaelx/NodeJS_CITest/issues"
+  },
+  "homepage": "https://github.com/missaelx/NodeJS_CITest#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
