@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSHint Report</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+    <style>
+        /* Fix to prevent horizontal overflow when there are long lines of code included in the evidence column */
+        code {
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <table class="table table-hover">
+        <tr>
+            <th class="text-center">Code</th>
+            <th class="text-center">Line</th>
+            <th class="text-center">Column</th>
+            <th>Evidence</th>
+            <th>Reason</th>
+        </tr>
+        <tr><td colspan="5"><b>src/middleware/OnlyAdminMW.js</b></td></tr><tr class="warning">
+    <td class="text-center">W069</td>
+    <td class="text-center">6</td>
+    <td class="text-center">28</td>
+    <td><code>    var token &#61; req.headers&#91;&quot;authorization&quot;&#93;</code></td>
+    <td>&#91;&#39;authorization&#39;&#93; is better written in dot notation.</td>
+</tr>
+    </table>
+    <div class="well">
+    Found <span class="label label-default">1</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">1 warnings</span>
+</div>
+</div>
+
+</body>
+</html>
