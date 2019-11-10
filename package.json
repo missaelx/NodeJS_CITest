@@ -2,22 +2,29 @@
   "name": "nodejs_citest",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "mocha ./test",
-    "deploy": "sh scripts/deploy.sh"
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/missaelx/NodeJS_CITest.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/missaelx/NodeJS_CITest/issues"
   },
-  "homepage": "https://github.com/missaelx/NodeJS_CITest#readme",
-  "devDependencies": {
-    "mocha": "^6.2.2"
-  }
+  "homepage": "https://github.com/missaelx/NodeJS_CITest#readme"
 }
