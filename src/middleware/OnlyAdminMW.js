@@ -3,8 +3,8 @@ var config = require("../config");
 const token_secret = config.TOKEN_SECRET;
 
 function OnlyAdminMW(req, res, next){
-    var token = req.headers["authorization"]
-    //var token = req.headers.authorization
+    //var token = req.headers["authorization"]
+    var token = req.headers.authorization
     if(!token){
         res.status(401).json({
             "message": "Token is needed"
