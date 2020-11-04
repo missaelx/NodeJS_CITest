@@ -23,16 +23,244 @@
             <th>Evidence</th>
             <th>Reason</th>
         </tr>
-        <tr><td colspan="5"><b>src/middleware/OnlyAdminMW.js</b></td></tr><tr class="warning">
-    <td class="text-center">W069</td>
-    <td class="text-center">6</td>
+        <tr><td colspan="5"><b>src/app.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">17</td>
+    <td><code>const express &#61; require&#40;&#39;express&#39;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">3</td>
+    <td class="text-center">18</td>
+    <td><code>const apiRoute &#61; require&#40;&quot;./routes/api.route&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">4</td>
+    <td class="text-center">20</td>
+    <td><code>const bodyParser &#61; require&#40;&quot;body-parser&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">5</td>
+    <td class="text-center">16</td>
+    <td><code>const config &#61; require&#40;&quot;./config&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">12</td>
+    <td class="text-center">5</td>
+    <td><code>    console.log&#40;&quot;App listening on &quot; &#43; config.BINDIND_IP &#43; &quot; at &quot; &#43; config.PORT &#43; &quot;&#33;&quot;&#41;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/config.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">1</td>
+    <td><code>require&#40;&#39;dotenv&#39;&#41;.config&#40;&#41;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">11</td>
+    <td class="text-center">1</td>
+    <td><code>module.exports &#61; config</code></td>
+    <td>&#39;module&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/dataaccess/MongoConnect.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">18</td>
+    <td><code>const mongoose &#61; require&#40;&quot;mongoose&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">8</td>
+    <td class="text-center">1</td>
+    <td><code>module.exports &#61; mongoose;</code></td>
+    <td>&#39;module&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/dataaccess/model/Admin.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">18</td>
+    <td><code>const mongoose &#61; require&#40;&quot;../MongoConnect&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">18</td>
+    <td class="text-center">1</td>
+    <td><code>module.exports &#61; Admin;</code></td>
+    <td>&#39;module&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/dataaccess/model/Estudiante.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">18</td>
+    <td><code>const mongoose &#61; require&#40;&quot;../MongoConnect&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">24</td>
+    <td class="text-center">1</td>
+    <td><code>module.exports &#61; Estudiante;</code></td>
+    <td>&#39;module&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/funciones.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">7</td>
+    <td class="text-center">5</td>
+    <td><code>    console.log&#40;resultado&#41;;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/middleware/OnlyAdminMW.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">11</td>
+    <td><code>var jwt &#61; require&#40;&quot;jsonwebtoken&quot;&#41;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">2</td>
+    <td class="text-center">14</td>
+    <td><code>var config &#61; require&#40;&quot;../config&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">17</td>
+    <td class="text-center">13</td>
+    <td><code>            console.error&#40;err&#41;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
     <td class="text-center">28</td>
-    <td><code>    var token &#61; req.headers&#91;&quot;authorization&quot;&#93;</code></td>
-    <td>&#91;&#39;authorization&#39;&#93; is better written in dot notation.</td>
+    <td class="text-center">1</td>
+    <td><code>module.exports &#61; OnlyAdminMW</code></td>
+    <td>&#39;module&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/routes/api.admin.route.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">17</td>
+    <td><code>const express &#61; require&#40;&#39;express&#39;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">3</td>
+    <td class="text-center">15</td>
+    <td><code>const Admin &#61; require&#40;&quot;../dataaccess/model/Admin&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">11</td>
+    <td class="text-center">13</td>
+    <td><code>            console.error&#40;err&#41;;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">44</td>
+    <td class="text-center">13</td>
+    <td><code>            console.error&#40;err&#41;;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">51</td>
+    <td class="text-center">1</td>
+    <td><code>module.exports &#61; router;</code></td>
+    <td>&#39;module&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/routes/api.estudiante.route.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">17</td>
+    <td><code>const express &#61; require&#40;&#39;express&#39;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">3</td>
+    <td class="text-center">21</td>
+    <td><code>const OnlyAdminMW &#61; require&#40;&quot;../middleware/OnlyAdminMW&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">4</td>
+    <td class="text-center">20</td>
+    <td><code>const Estudiante &#61; require&#40;&quot;../dataaccess/model/Estudiante&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">14</td>
+    <td class="text-center">13</td>
+    <td><code>            console.error&#40;err&#41;;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">50</td>
+    <td class="text-center">13</td>
+    <td><code>            console.error&#40;err&#41;;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">82</td>
+    <td class="text-center">13</td>
+    <td><code>            console.error&#40;err&#41;;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">100</td>
+    <td class="text-center">13</td>
+    <td><code>            console.error&#40;err&#41;;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">107</td>
+    <td class="text-center">1</td>
+    <td><code>module.exports &#61; router;</code></td>
+    <td>&#39;module&#39; is not defined.</td>
+</tr><tr><td colspan="5"><b>src/routes/api.route.js</b></td></tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">1</td>
+    <td class="text-center">17</td>
+    <td><code>const express &#61; require&#40;&#39;express&#39;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">3</td>
+    <td class="text-center">26</td>
+    <td><code>const estudianteRouter &#61; require&#40;&quot;./api.estudiante.route&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">4</td>
+    <td class="text-center">21</td>
+    <td><code>const adminRouter &#61; require&#40;&quot;./api.admin.route&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">5</td>
+    <td class="text-center">15</td>
+    <td><code>const Admin &#61; require&#40;&quot;../dataaccess/model/Admin&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">6</td>
+    <td class="text-center">13</td>
+    <td><code>const jwt &#61; require&#40;&quot;jsonwebtoken&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">7</td>
+    <td class="text-center">16</td>
+    <td><code>const config &#61; require&#40;&quot;../config&quot;&#41;;</code></td>
+    <td>&#39;require&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">37</td>
+    <td class="text-center">13</td>
+    <td><code>            console.error&#40;err&#41;</code></td>
+    <td>&#39;console&#39; is not defined.</td>
+</tr><tr class="warning">
+    <td class="text-center">W117</td>
+    <td class="text-center">63</td>
+    <td class="text-center">1</td>
+    <td><code>module.exports &#61; router;</code></td>
+    <td>&#39;module&#39; is not defined.</td>
 </tr>
     </table>
     <div class="well">
-    Found <span class="label label-default">1</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">1 warnings</span>
+    Found <span class="label label-default">39</span> failures - <span class="label label-danger">0 errors</span> &amp; <span class="label label-warning">39 warnings</span>
 </div>
 </div>
 

@@ -20,7 +20,7 @@
   "devDependencies": {
     "jshint": "^2.10.3",
     "jshint-html-reporter": "^0.2.5",
-    "mocha": "^6.2.2"
+    "mocha": "^8.2.1"
   },
   "repository": {
     "type": "git",
@@ -36,9 +36,6 @@
     "esversion": 6,
     "globals": {
       "MY_GLOBAL": true,
-      "module": true,
-      "require": true,
-      "console": true,
       "process": true
     },
     "asi": true
