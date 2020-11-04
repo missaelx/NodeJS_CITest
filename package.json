@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node src/app.js",
     "test": "mocha ./test",
-    "lint": "jshint --reporter node_modules/jshint-html-reporter/reporter.js src > report.html"
+    "lint": "jshint --reporter node_modules/jshint-html-reporter/reporter.js src > ST-report.html",
+    "test-report": "mocha ./test --reporter mocha-simple-html-reporter --reporter-options output=UT-report.html"
   },
   "author": "",
   "license": "ISC",
@@ -20,7 +21,8 @@
   "devDependencies": {
     "jshint": "^2.10.3",
     "jshint-html-reporter": "^0.2.5",
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "mocha-simple-html-reporter": "^1.1.0"
   },
   "repository": {
     "type": "git",
@@ -36,7 +38,10 @@
     "esversion": 6,
     "globals": {
       "MY_GLOBAL": true,
-      "process": true
+      "process": true,
+      "require": true,
+      "console": true,
+      "module": true
     },
     "asi": true
   }
