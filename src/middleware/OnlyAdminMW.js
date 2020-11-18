@@ -9,6 +9,7 @@ function OnlyAdminMW(req, res, next){
         res.status(401).json({
             "message": "Token is needed"
         })
+        return;
     }
     token = token.replace("Bearer ", "");
 
